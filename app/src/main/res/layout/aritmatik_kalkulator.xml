@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E8C872"
+    android:orientation="vertical"
+    tools:context=".AritmatikKalkulator">
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Calculator Aritmatika"
+     android:textSize="50dp"
+     android:fontFamily="monospace"
+
+
+     />
+
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:gravity="center"
+     android:inputType="number"
+     android:layout_marginStart="10dp"
+     android:layout_marginTop="100dp"
+     android:layout_marginEnd="10dp"
+     android:hint="Num 1"
+     android:textAlignment="center"
+     android:background="@drawable/edittext_bg"/>
+ 
+
+ <Spinner
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:entries="@array/array"
+     android:layout_marginTop="15dp"
+     android:layout_marginBottom="15dp"
+     android:layout_marginLeft="15dp"
+     android:gravity="center"
+     android:layout_gravity="center"/>
+
+ <EditText
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:gravity="center"
+     android:inputType="number"
+     android:layout_marginStart="10dp"
+     android:layout_marginTop="10dp"
+     android:layout_marginEnd="10dp"
+     android:hint="Num 2"
+     android:textAlignment="center"
+     android:background="@drawable/edittext_bg"/>
+ <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:id="@+id/btnCalculate"
+     android:text="Calculate"
+     android:layout_gravity="center"
+  android:layout_marginTop="20dp"
+     android:backgroundTint="#637A9F"
+  />
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="Result"
+     android:gravity="center"
+     android:layout_marginTop="10dp"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
